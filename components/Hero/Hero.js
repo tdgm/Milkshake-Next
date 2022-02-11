@@ -1,4 +1,4 @@
-function Hero(){
+const Hero = () => {
   return(
     <section className="hero mk-pb-150 mk-width-100" id="start">
       <div className="container">

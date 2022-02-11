@@ -1,5 +1,5 @@
 
-function Footer(){
+const Footer = () => {
   return(
     <footer className="contact mk-pt-45 mk-pb-150 mk-width-100" id="contact">
       <div className="container">

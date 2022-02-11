@@ -1,4 +1,4 @@
-function Credits(){
+const Credits  = () => {
   return(
     <div className="credits mk-width-100">
       <div className="container">

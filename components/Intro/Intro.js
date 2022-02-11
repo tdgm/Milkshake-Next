@@ -1,4 +1,4 @@
-function Intro(){
+const Intro = () => {
   return(
     <section className="intro mk-p-default mk-width-100 bg-effect" id="intro">
       <div className="container">

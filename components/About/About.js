@@ -1,4 +1,4 @@
-function About(){
+const About = () => {
   return(
     <section className="about mk-p-default mk-width-100" id="about" style={{backgroundColor: "white"}}>
       <div className="container">

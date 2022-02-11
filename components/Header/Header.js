@@ -1,11 +1,13 @@
 import Image from "next/image";
 
-function Header(){
+import imgLogo from '../../public/mk-logo-completo.svg';
+
+const Header = () => {
   return(
     <header id="sticky">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
-          <a className="navbar-brand" href="/"><span className="d-none">Milkshake Branding & Design</span><Image src="/public/mk-logo-completo.svg" alt="Milkshake Branding & Design" width={114} height={49} /></a>
+          <a className="navbar-brand" href="/"><span className="d-none">Milkshake Branding & Design</span><Image src={imgLogo} alt="Milkshake Branding & Design" width={114} height={49} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
